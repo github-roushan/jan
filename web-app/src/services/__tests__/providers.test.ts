@@ -15,7 +15,7 @@ vi.mock('token.js', () => ({
   },
 }))
 
-vi.mock('@/consts/providers', () => ({
+vi.mock('@/constants/providers', () => ({
   predefinedProviders: [
     {
       active: true,
